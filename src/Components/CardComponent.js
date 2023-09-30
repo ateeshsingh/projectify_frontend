@@ -1,6 +1,6 @@
 import { Card } from "antd";
 import { useState } from 'react';
-import DrawerComponent from "./DrawerComponent";
+import DrawerComponent from "../components/DrawerComponent";
 
 function CardComponent (props){
     const {data}=props
