@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import CardComponent from "../Components/Cards";
+import CardComponent from "./CardComponent";
 import { Row, Col } from 'antd';
 import fetchData from '../service/service';
 

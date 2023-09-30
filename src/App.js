@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
-import FetchDataComponent from './Components/FetchDataComponent';
-import SearchBoxComponent from './Components/searchBox';
+import FetchDataComponent from './components/FetchDataComponent';
+import SearchBoxComponent from './components/SearchBoxComponent';
 
 function App() {
   const [searchParams,setSearchParams] = useState("");
